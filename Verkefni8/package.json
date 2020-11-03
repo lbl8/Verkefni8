@@ -1,0 +1,30 @@
+{
+  "name": "vef1-2020-v8-synilausn",
+  "version": "1.0.0",
+  "description": "## Lýsing",
+  "main": "scripts.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files scripts.js styles.css",
+    "test": "eslint scripts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbl8/Verkefni8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbl8/Verkefni8.git/issues"
+  },
+  "homepage": "https://github.com/lbl8/Verkefni8.git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "browsersync": "0.0.1-security"
+  }
+}

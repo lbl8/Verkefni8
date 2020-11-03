@@ -1,0 +1,93 @@
+html{
+    max-width: 1000px;
+    max-height: 1000px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  header h1{
+    padding: 1rem;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0%;
+    font-size: 2em;
+    text-align: center ;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .sr-only{
+    display: none;
+  }
+  main figure img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 8em;
+
+  }
+
+  p {
+    font-size:2em ;
+    padding: 1rem;
+  }
+
+ul li{
+  float: left;
+  list-style: none;
+  width: 31%;
+  margin: 1%;
+  border: #333333 dotted 1px;
+  font-size:1.5em;
+  padding: 1rem;
+  box-sizing: border-box;
+  min-height: 6rem;
+}
+ul :hover{
+background-color: #999999;
+}
+
+footer p{
+  max-width: 1000px;
+  padding: 1rem;
+  font-size: 1em;
+  width: 100%;
+  text-align:center;
+  background-color: #eeeeee;
+  
+}
+  figcaption{
+      font-size: 1em;
+      text-align: center;
+}
+  main p{
+      font-size: 2em;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  
+}
+  h2{
+      font-size: 4em;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+  h3{
+      font-size: 3em;
+      margin-bottom: 2rem;
+  
+  }
+  article h3 p{
+      font-size: 1.5em;
+  }
+  article section p:first-of-type::first-letter{
+      font-size: 5.6rem;
+  }
+  article section p:first-of-type::first-line{
+      font-size: 2.8rem;
+  }
+  article img{
+      float: left;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+  }
